@@ -16,15 +16,8 @@
 # find the second largest elememt 
 
 # list = [7,3,9,2,8] # sort it then print -2 value.
-# lar = list[0]
-# slar = list[0]
-# for i in list:
-#     if list[i] > lar:
-#         slar = lar
-#         lar = list[i]
-#     else:
-#         slar = list[i]  #unsolved 
-# print(slar)
+# list.sort()
+# use decrement indexing to get second largest no.
 
 # -------------------------------------
 # a=[1,2,3,4,5,6,7,8,9]
