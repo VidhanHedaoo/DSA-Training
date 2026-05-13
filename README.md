@@ -6,8 +6,10 @@ This repository contains code and solutions from my DSA training sessions.
 
 # Topics Covered
 - Basics of Python
-- list
+- String
+- Collection Data types(list,tuple,dictionary)
 
 ## Progress
 - Day 1: Python basics and problem solving (list) 
+- Day 2: Collection Data types(tuple,dictionary) and Operations on String
   
