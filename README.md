@@ -9,9 +9,14 @@ This repository contains code and solutions from my DSA training sessions.
 - String
 - Collection Data types(list,tuple,dictionary)
 - Linear Search 
+- Binary Search
+- Stack
+- Sort(Bubble)
+
 
 ## Progress
 - Day 1: Python basics and problem solving (list) 
 - Day 2: Collection Data types(tuple,dictionary) and Operations on String
 - Day 3: Time complexity, Functions, linear search 
+- Day 4: Class, Object, problems on Binary Search and Stack
   
