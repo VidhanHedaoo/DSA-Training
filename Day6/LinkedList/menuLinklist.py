@@ -27,8 +27,25 @@ class Linkedlist:
             self.tail = self.node
         else:
             self.node.next = self.head
-            self.head = self.node    
+            self.head = self.node  
 
+    def addbetween(self,data,index):
+        self.node = Node(data)
+
+        if self.head == None:
+            self.head = self.node
+            self.tail = self.node
+            print("LinkedList was empty.")
+        elif index == 0:
+            self.node.next = self.head
+            self.head = self.node 
+        else:
+            temp = self.head
+            for _ in range(index-1):
+                temp = temp.next
+            self.node.next = temp.next
+            temp.next = self.node    
+       
     def addend(self,data):
         self.node = Node(data)
 
@@ -40,9 +57,10 @@ class Linkedlist:
             self.tail = self.node
     
     def display(self):
-        while self.head != None:
-            print(self.head.data,"->",end=" ")
-            self.head = self.head.next
+        temp = self.head
+        while temp != None:
+            print(temp.data,"->",end=" ")
+            temp = temp.next
 
 
 if __name__ == '__main__':
@@ -67,10 +85,15 @@ if __name__ == '__main__':
             value = int(input("Enter value for node : "))
             object.addbeg(value)  
             print("Node added at begging.") 
+        elif ch == 3:
+            value = int(input("Enter value for node : "))
+            index = int(input("Enter the index for adding the node."))
+            object.addbetween(value,index)
+            print("Node added succesfully.")  
         elif ch == 4:
             value = int(input("Enter value for node : "))
             object.addend(value)
-            print("Node added succesfully.")
+            print("Node added at end.")
         elif ch == 5:
             object.display()
         elif ch == 6:
