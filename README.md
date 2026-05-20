@@ -14,7 +14,8 @@ This repository contains code and solutions from my DSA training sessions.
 - Queue
 - Sort(Bubble, Insertion, Selection)
 - Linked List
-- Tree
+- Tree(Binary search, depth first search)
+
 
 
 ## Progress
@@ -25,4 +26,5 @@ This repository contains code and solutions from my DSA training sessions.
 - Day 5: Queue, different mcq coding problems.
 - Day 6: Insertion, Selection Sort and Linked list. 
 - Day 7: Tree and Recursion problems.
+- Day 8: Binary and Depth search, file handling and exception handling.
   
