@@ -1,0 +1,5 @@
+ERROR:root:invalid literal for int() with base 10: 'j'
+Traceback (most recent call last):
+  File "c:/Users/vidha/Desktop/DSA-Training/Day8/error.py", line 10, in <module>
+    b = int(input("Enter second number: "))
+ValueError: invalid literal for int() with base 10: 'j'
