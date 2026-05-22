@@ -17,6 +17,8 @@ This repository contains code and solutions from my DSA training sessions.
 - Tree(Binary search, depth first search)
 - Oops concepts
 - Graph
+- Hashing
+- Regular expression
 
 
 
@@ -30,4 +32,5 @@ This repository contains code and solutions from my DSA training sessions.
 - Day 7: Tree and Recursion problems.
 - Day 8: Binary and Depth search, file handling and exception handling.
 - Day 9: Oops Concepts, Queue and Stack implementation using LinkedList and Graph.
+- Day 10: Regular expressions, adjacency list graph and hashing technique.
   
